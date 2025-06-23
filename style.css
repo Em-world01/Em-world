@@ -183,9 +183,9 @@ main {
   }
 
   .contact-box {
-    max-width: 90%;  /* opcjonalnie, żeby nie było za szerokie */
+    max-width: 75%;  /* opcjonalnie, żeby nie było za szerokie */
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 10px;
   }
   .about {
   flex-basis: 60%;
@@ -195,7 +195,7 @@ main {
   flex-basis: 35%;
 }
 .about {
-  margin-right: 20px;
+  margin-right: 0px;
 }
 
 .contact-box {
@@ -207,8 +207,8 @@ body {
   padding: 0 40px; /* lewy i prawy margines */
 }
 .logo {
-  width: 100%;
-  max-width: 1200px; /* ograniczenie rozciągania */
+  width: 90%;
+  max-width: 1000px; /* ograniczenie rozciągania */
   margin: 0 auto; /* centruje logo w obrębie strony */
   display: block; /* żeby margin działał */
 }
