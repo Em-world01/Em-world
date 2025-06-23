@@ -28,7 +28,7 @@ p {
 
 .right-column {
   flex: 1 1 35%;
-  min-width: 300px;
+  min-width: 270px;
 }
 
 .contact-box {
@@ -36,7 +36,12 @@ p {
   padding: 20px;
   border: 1px solid #00ffff;
   border-radius: 8px;
+  width: 100%; /* zostaw! */
+  max-width: 350px; /* NOWOŚĆ: ogranicza szerokość pudełka */
+  margin: 0 auto;   /* NOWOŚĆ: centrowanie w kolumnie */
+  box-sizing: border-box;
 }
+
 
 .contact-box input,
 .contact-box textarea {
