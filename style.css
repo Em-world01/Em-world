@@ -32,3 +32,15 @@ footer {
   padding: 10px;
   font-size: 0.9em;
 }
+section {
+  margin-bottom: 40px;
+}
+
+a {
+  color: #00ffff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
