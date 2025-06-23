@@ -1,53 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <img src="assets/logo.png" alt="Em-world logo" style="width: 150px;">
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
   <title>Em-world</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Welcome to Em-world</h1>
-    <p>A tiny fortress of thoughts, tech trends, AI secrets, and elegant mischief.</p>
-  </header>
-  <main>
-    <section>
-  
+  <h1>Welcome to Em-world</h1>
+  <p>A tiny fortress of thoughts, tech trends, AI secrets, and elegant mischief.</p>
+
+  <div class="two-column-layout">
+    <div class="left-column">
       <section>
-<div class="two-column-layout">
-  <div class="left-column">
-    <section>
-      <h2>About Me</h2>
-      <p>I'm Em — a stubborn mind wrapped in a million thoughts. I love quiet nights, loud music, and the magic of simple words. This is my digital corner — nothing fancy, but 100% mine. Welcome inside.</p>
-    </section>
+        <h2>Latest Articles</h2>
+        <p>Coming soon...</p>
+      </section>
+
+      <section>
+        <h2>About Me</h2>
+        <p>I'm Em — a stubborn mind wrapped in a million thoughts. I love quiet nights, loud music, and the magic of simple words. This is my digital corner — nothing fancy, but 100% mine. Welcome inside.</p>
+      </section>
+    </div>
+
+    <div class="right-column">
+      <section class="contact-box">
+        <h2>Contact</h2>
+        <form action="https://formspree.io/f/xblyzylw" method="POST">
+          <label for="name">Your Name:</label><br>
+          <input type="text" id="name" name="name" required><br><br>
+
+          <label for="email">Your Email:</label><br>
+          <input type="email" id="email" name="email" required><br><br>
+
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </div>
   </div>
 
-  <div class="right-column">
-    <section class="contact-box">
-      <h2>Contact</h2>
-      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-        <label for="name">Your Name:</label><br>
-        <input type="text" id="name" name="name" required><br><br>
-
-        <label for="email">Your Email:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
-
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="4" required></textarea><br><br>
-
-        <button type="submit">Send Message</button>
-      </form>
-    </section>
-  </div>
-</div>
-
-      <p>Coming soon...</p>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2024 Em</p>
-  </footer>
 </body>
 </html>
+
+ 
