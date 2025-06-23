@@ -71,7 +71,7 @@ p {
 }
 .right-column {
   flex: 1 1 35%;
-  min-width: 300px;
+  min-width: 250px;
   padding: 20px;       /* Odstęp WEWNĘTRZNY w kolumnie */
   box-sizing: border-box; /* Niech padding NIE rozwala szerokości */
 }
@@ -85,7 +85,7 @@ p {
 }
 .right-column {
   flex: 1 1 35%;
-  min-width: 300px;
+  min-width: 250px;
   padding: 20px;       /* Odstęp WEWNĘTRZNY w kolumnie */
   box-sizing: border-box; /* Niech padding NIE rozwala szerokości */
 }
