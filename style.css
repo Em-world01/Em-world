@@ -94,3 +94,10 @@ p {
   width: 100%;          /* Zmiana! Skrzynka zajmuje 100% szerokości kolumny */
   box-sizing: border-box; /* Też obowiązkowo */
 }
+.right-column {
+  flex: 1 1 35%;
+  min-width: 300px;
+  padding: 20px;
+  margin-right: 20px;  /* Dodatkowy dystans PRAWO */
+  box-sizing: border-box;
+}
