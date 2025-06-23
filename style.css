@@ -140,4 +140,10 @@ p {
   margin: 0 auto; /* wyśrodkowanie */
   box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
 }
+header img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
 
