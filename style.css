@@ -60,4 +60,46 @@ a:hover {
 .contact-box a:hover {
   text-decoration: underline;
 }
+.two-column-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.left-column, .right-column {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-box {
+  background: #1f1f1f;
+  padding: 20px;
+  border: 1px solid #00ffff;
+  border-radius: 8px;
+}
+
+.contact-box input,
+.contact-box textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #121212;
+  border: 1px solid #444;
+  color: #eee;
+}
+
+.contact-box button {
+  padding: 10px 20px;
+  background: #00ffff;
+  border: none;
+  color: #121212;
+  cursor: pointer;
+}
+
+.contact-box button:hover {
+  background: #00cccc;
+}
 
