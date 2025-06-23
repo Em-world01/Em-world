@@ -51,12 +51,16 @@ p {
 
 .contact-box input,
 .contact-box textarea {
+  display: block; /* <= KLUCZ! */
   width: 100%;
+  box-sizing: border-box;
   padding: 10px;
   margin-bottom: 10px;
   background: #121212;
   border: 1px solid #444;
   color: #eee;
+}
+
 }
 
 .contact-box button {
