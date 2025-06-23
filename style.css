@@ -94,7 +94,7 @@ p {
 .right-column {
   flex: 1 1 35%;
   min-width: 250px;
-  padding: 20px; /* NOWOŚĆ! Dodaje przestrzeń w kolumnie */
+  padding: 10px; /* NOWOŚĆ! Dodaje przestrzeń w kolumnie */
 }
 
 }
@@ -102,7 +102,7 @@ p {
 .contact-box {
   background: #1f1f1f;
   padding: 30px;  /* Wewnętrzny odstęp w samej skrzynce */
-  margin-right: 20px;  /* Delikatnie odsunięte od krawędzi */
+  margin-right: 0px;  /* Delikatnie odsunięte od krawędzi */
   border: 1px solid #00ffff;
   border-radius: 8px;
 }
