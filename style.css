@@ -8,6 +8,14 @@ body {
   font-family: Arial, sans-serif;
   padding: 20px;
 }
+.about {
+  flex-basis: 60%;
+}
+
+.contact-box {
+  flex-basis: 35%;
+}
+
 
 h1 {
   text-align: center;
@@ -16,6 +24,14 @@ h1 {
 p {
   text-align: center;
 }
+.about {
+  margin-right: 20px;
+}
+
+.contact-box {
+  margin-left: 20px;
+}
+
 
 .two-column-layout {
   display: flex;
