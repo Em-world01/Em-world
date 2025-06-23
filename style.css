@@ -219,4 +219,9 @@ body {
 .contact-box {
   margin-left: 60px; /* więcej = dalej od lewej */
 }
+.container {
+  display: flex;
+  justify-content: space-between; /* pięknie rozsuwa oba boxy */
+  align-items: flex-start;
+}
 
