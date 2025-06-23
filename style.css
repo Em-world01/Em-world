@@ -208,4 +208,10 @@ main {
 body {
   padding: 0 40px; /* lewy i prawy margines */
 }
+.logo {
+  width: 100%;
+  max-width: 1200px; /* ograniczenie rozciągania */
+  margin: 0 auto; /* centruje logo w obrębie strony */
+  display: block; /* żeby margin działał */
+}
 
