@@ -146,4 +146,12 @@ header img {
   height: auto;
   margin-bottom: 30px;
 }
+header img {
+  display: block;
+  width: 100%;
+}
+
+main {
+  padding: 0 20px; /* taki sam jak .container */
+}
 
