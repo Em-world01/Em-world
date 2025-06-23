@@ -69,19 +69,15 @@ p {
 .right-column {
   flex: 1 1 35%;
   min-width: 250px;
-  padding: 10px; /* NOWOŚĆ! Dodaje przestrzeń w kolumnie */
+  padding: 20px; /* NOWOŚĆ! Dodaje przestrzeń w kolumnie */
 }
-.right-column {
-  flex: 1 1 35%;
-  min-width: 250px;
-  padding: 20px;       /* Odstęp WEWNĘTRZNY w kolumnie */
-  box-sizing: border-box; /* Niech padding NIE rozwala szerokości */
+
 }
 
 .contact-box {
   background: #1f1f1f;
-  padding: 20px;  /* Wewnętrzny odstęp w samej skrzynce */
-  margin-right: 10px;  /* Delikatnie odsunięte od krawędzi */
+  padding: 30px;  /* Wewnętrzny odstęp w samej skrzynce */
+  margin-right: 20px;  /* Delikatnie odsunięte od krawędzi */
   border: 1px solid #00ffff;
   border-radius: 8px;
 }
@@ -97,16 +93,15 @@ p {
   padding: 20px;
   border: 1px solid #00ffff;
   border-radius: 8px;
-  width: 100%;          /* Zmiana! Skrzynka zajmuje 100% szerokości kolumny */
+  width: 80%;          /* Zmiana! Skrzynka zajmuje 100% szerokości kolumny */
   box-sizing: border-box; /* Też obowiązkowo */
 }
 
-}.right-column {
+.right-column {
   flex: 1 1 35%;
   min-width: 300px;
   padding: 10px;
-  display: flex;
-  justify-content: center; /* środek w poziomie */
+  /* USUŃ justify-content: center */
 }
 .contact-box {
   background: #1f1f1f;
@@ -116,7 +111,7 @@ p {
   box-shadow: 0 0 15px rgba(0, 255, 255, 0.2); /* delikatny neonowy cień */
 }
 .contact-box {
-  max-width: 400px; /* lub ile chcesz */
+  max-width: 300px; /* lub ile chcesz */
   width: 100%;      /* niech rośnie do limitu */
   margin: 0 auto;   /* centrowanie wewnątrz kolumny */
 }
