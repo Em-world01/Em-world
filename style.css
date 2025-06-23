@@ -64,6 +64,13 @@ p {
   min-width: 300px;
   padding: 10px; /* NOWOŚĆ! Dodaje przestrzeń w kolumnie */
 }
+.right-column {
+  flex: 1 1 35%;
+  min-width: 300px;
+  padding: 20px;
+  margin-right: 20px;  /* Dodatkowy dystans PRAWO */
+  box-sizing: border-box;
+}
 
 .contact-box {
   background: #1f1f1f;
