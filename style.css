@@ -170,5 +170,20 @@ main {
     margin-left: auto;
     margin-right: auto;
   }
+  .about {
+  flex-basis: 60%;
+}
+
+.contact-box {
+  flex-basis: 35%;
+}
+.about {
+  margin-right: 20px;
+}
+
+.contact-box {
+  margin-left: 20px;
+}
+
 }
 
