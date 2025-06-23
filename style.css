@@ -27,8 +27,10 @@ p {
 }
 
 .right-column {
-  flex: 1 1 35%;
-  min-width: 270px;
+  flex: 0 0 350px;  /* SZTYWNA szerokość: 350px */
+  box-sizing: border-box;
+}
+
 }
 
 .contact-box {
