@@ -59,3 +59,16 @@ p {
 .contact-box button:hover {
   background: #00cccc;
 }
+.right-column {
+  flex: 1 1 35%;
+  min-width: 300px;
+  padding: 10px; /* NOWOŚĆ! Dodaje przestrzeń w kolumnie */
+}
+
+.contact-box {
+  background: #1f1f1f;
+  padding: 20px;  /* Wewnętrzny odstęp w samej skrzynce */
+  margin-right: 10px;  /* Delikatnie odsunięte od krawędzi */
+  border: 1px solid #00ffff;
+  border-radius: 8px;
+}
