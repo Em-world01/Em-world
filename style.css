@@ -10,7 +10,7 @@ body {
   padding: 20px;
 }
 .about {
-  flex-basis: 60%;
+  flex-basis: 50%;
 }
 
 .contact-box {
@@ -61,7 +61,7 @@ p {
   border-radius: 8px;
   width: 100%; /* zostaw! */
   max-width: 350px; /* NOWOŚĆ: ogranicza szerokość pudełka */
-  margin: 0 auto;   /* NOWOŚĆ: centrowanie w kolumnie */
+  margin: 10px;   /* NOWOŚĆ: centrowanie w kolumnie */
   box-sizing: border-box;
 }
 
