@@ -72,3 +72,18 @@ p {
   border: 1px solid #00ffff;
   border-radius: 8px;
 }
+.right-column {
+  flex: 1 1 35%;
+  min-width: 300px;
+  padding: 20px;       /* Odstęp WEWNĘTRZNY w kolumnie */
+  box-sizing: border-box; /* Niech padding NIE rozwala szerokości */
+}
+
+.contact-box {
+  background: #1f1f1f;
+  padding: 20px;
+  border: 1px solid #00ffff;
+  border-radius: 8px;
+  width: 100%;          /* Zmiana! Skrzynka zajmuje 100% szerokości kolumny */
+  box-sizing: border-box; /* Też obowiązkowo */
+}
