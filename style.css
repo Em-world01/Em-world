@@ -154,7 +154,7 @@ p {
   border-radius: 8px;
   max-width: 300px;
   width: 80%; /* ważne! */
-  margin: 0 auto; /* wyśrodkowanie */
+  margin: 10 ; /* wyśrodkowanie */
   box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
 }
 header img {
