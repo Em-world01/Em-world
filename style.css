@@ -149,11 +149,11 @@ p {
 
 .contact-box {
   background: #1f1f1f;
-  padding: 20px;
+  padding: 0px;
   border: 1px solid #00ffff;
   border-radius: 8px;
-  max-width: 400px;
-  width: 100%; /* ważne! */
+  max-width: 300px;
+  width: 80%; /* ważne! */
   margin: 0 auto; /* wyśrodkowanie */
   box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
 }
