@@ -1,3 +1,7 @@
+
+
+
+
 * {
   box-sizing: border-box;
 }
@@ -211,5 +215,8 @@ body {
   max-width: 1000px; /* ograniczenie rozciągania */
   margin: 0 auto; /* centruje logo w obrębie strony */
   display: block; /* żeby margin działał */
+}
+.contact-box {
+  margin-left: 60px; /* więcej = dalej od lewej */
 }
 
