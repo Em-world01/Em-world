@@ -224,8 +224,9 @@ body {
 .logo {
   width: 90%;
   max-width: 1000px; /* ograniczenie rozciągania */
-  margin: 0 auto; /* centruje logo w obrębie strony */
-  display: block; /* żeby margin działał */
+  margin: 10 ; /* centruje logo w obrębie strony */
+  display: block; 
+  /* żeby margin działał */
 }
 .contact-box {
   margin-left: 40px; /* więcej = dalej od lewej */
