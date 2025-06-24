@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body {
-  padding: 0 40px; /* lewy i prawy margines */
+  padding: 20 20px; /* lewy i prawy margines */
 
   background: #121212;
   color: #eee;
@@ -74,8 +74,8 @@ p {
 .contact-box input,
 .contact-box textarea {
    text-align: center;
-  display: block; /* <= KLUCZ! */
-  width: 100%;
+  display: center; /* <= KLUCZ! */
+  width: 90%;
   box-sizing: border-box;
   padding: 10px;
   margin-bottom: 10px;
