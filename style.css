@@ -236,8 +236,3 @@ body {
   justify-content: space-between; /* pięknie rozsuwa oba boxy */
   align-items: flex-start;
 }
-.logo {
-  display: block;
-  margin: 0 auto;
-}
-
