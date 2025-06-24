@@ -162,16 +162,13 @@ p {
 }
 
 .contact-box {
-  text-align: center;
-  background: #1f1f1f;
-  padding: 15px;
-  border: 1px solid #00ffff;
-  border-radius: 8px;
-  max-width: 300px;
-  width: 80%; /* ważne! */
-  margin: 10 ; /* wyśrodkowanie */
-  box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
-}
+    text-align: center;
+    background: #1f1f1f;
+    padding: 10px;
+    border: 0px solid #00ffff;
+    border-radius: 8px;
+    max-width: 300px;
+    width: 80%;
 header img {
   display: block;
   width: 100%;
@@ -229,7 +226,7 @@ body {
   /* żeby margin działał */
 }
 .contact-box {
-  margin-left: 40px; /* więcej = dalej od lewej */
+  margin-left: 70px; /* więcej = dalej od lewej */
 }
 .container {
   display: flex;
