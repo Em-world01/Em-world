@@ -176,7 +176,7 @@ header img {
   margin-bottom: 30px;
 }
 header img {
-  display: block;
+  display: flex;
   width: 100%;
 }
 
