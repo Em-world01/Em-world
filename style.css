@@ -90,12 +90,12 @@ p {
    text-align: center;
   padding: 10px 20px;
   background: #00ffff;
-  border: none;
+  border: 10px;
   color: #121212;
   cursor: pointer;
 }
 
-.contact-box button:hover {
+.contact-box button:center {
   background: #00cccc;
 }
 .right-column {
@@ -107,7 +107,7 @@ p {
 }
 
 .contact-box {
-   text-align: center;
+   text-align: right;
   background: #1f1f1f;
   padding: 30px;  /* Wewnętrzny odstęp w samej skrzynce */
   margin-right: 0px;  /* Delikatnie odsunięte od krawędzi */
@@ -115,7 +115,7 @@ p {
   border-radius: 8px;
 }
 .right-column {
-   text-align: center;
+   text-align: right;
   flex: 1 1 35%;
   min-width: 250px;
   padding: 20px;       /* Odstęp WEWNĘTRZNY w kolumnie */
@@ -123,7 +123,7 @@ p {
 }
 
 .contact-box {
-   text-align: center;
+   text-align: right;
   background: #1f1f1f;
   padding: 20px;
   border: 1px solid #00ffff;
@@ -133,14 +133,14 @@ p {
 }
 
 .right-column {
-   text-align: center;
+   text-align: right;
   flex: 1 1 35%;
   min-width: 300px;
   padding: 10px;
   /* USUŃ justify-content: center */
 }
 .contact-box {
-   text-align: center;
+  text-align: right;
   background: #1f1f1f;
   padding: 20px;
   border: 1px solid #00ffff;
@@ -148,13 +148,13 @@ p {
   box-shadow: 0 0 15px rgba(0, 255, 255, 0.2); /* delikatny neonowy cień */
 }
 .contact-box {
-   text-align: center;
+  text-align: right;
   max-width: 300px; /* lub ile chcesz */
   width: 100%;      /* niech rośnie do limitu */
   margin: 0 auto;   /* centrowanie wewnątrz kolumny */
 }
 .right-column {
-   text-align: center;
+  text-align: right;
   flex: 1 1 35%;
   min-width: 300px;
   padding: 10px;
@@ -162,6 +162,7 @@ p {
 }
 
 .contact-box {
+  text-align: center;
   background: #1f1f1f;
   padding: 0px;
   border: 1px solid #00ffff;
@@ -218,7 +219,7 @@ main {
 
 }
 body {
-  padding: 0 40px; /* lewy i prawy margines */
+  padding: 0 20px; /* lewy i prawy margines */
 }
 .logo {
   width: 90%;
@@ -227,7 +228,7 @@ body {
   display: block; /* żeby margin działał */
 }
 .contact-box {
-  margin-left: 60px; /* więcej = dalej od lewej */
+  margin-left: 40px; /* więcej = dalej od lewej */
 }
 .container {
   display: flex;
