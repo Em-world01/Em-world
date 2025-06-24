@@ -59,6 +59,10 @@ p {
 }
 
 .contact-box {
+  .contact {
+  text-align: center;
+}
+
   background: #1f1f1f;
   padding: 20px;
   border: 1px solid #00ffff;
