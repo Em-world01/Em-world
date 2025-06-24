@@ -59,11 +59,8 @@ p {
 }
 
 .contact-box {
-  .contact {
   text-align: center;
-}
-
-  background: #1f1f1f;
+ background: #1f1f1f;
   padding: 20px;
   border: 1px solid #00ffff;
   border-radius: 8px;
@@ -76,6 +73,7 @@ p {
 
 .contact-box input,
 .contact-box textarea {
+   text-align: center;
   display: block; /* <= KLUCZ! */
   width: 100%;
   box-sizing: border-box;
