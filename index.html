@@ -6,80 +6,73 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div></div> <class="centered-box">
-<p><img src="assets/logo.png" alt="Em's world banner" style="width: 90%;height: 70%;"></p>
-  <div></div> 
-</header>
-  <h1>Welcome to Em-world</h1>
-  <p>A tiny fortress of thoughts, tech trends, AI secrets, and elegant mischief.</p>
-<body>
-  <h1>Witaj w moim świecie</h1>
-  
-  <!-- TU WKLEJ TEN FRAGMENT 👇 -->
-  <div class="tab-container">
-    <div class="tab">
-      <input type="checkbox" id="tab1">
-      <label class="tab-label" for="tab1">Tiktokowi oszuści</label>
-      <div class="tab-content">
-        <p>Lista podejrzanych działań, fałszywe konta, przykłady oszustw.</p>
-        <ul>
-          <li><a href="https://example.com/artykul1" target="_blank">Jak rozpoznać oszusta</a></li>
-          <li><a href="https://example.com/artykul2" target="_blank">Techniki manipulacji</a></li>
-        </ul>
+  <header class="centered-box">
+    <img src="assets/logo.png" alt="Em's world banner" style="width: 90%; height: 70%;">
+  </header>
+
+  <main>
+    <h1>Welcome to Em-world</h1>
+    <p>A tiny fortress of thoughts, tech trends, AI secrets, and elegant mischief.</p>
+    <h1>Witaj w moim świecie</h1>
+
+    <div class="tab-container">
+      <div class="tab">
+        <input type="checkbox" id="tab1">
+        <label class="tab-label" for="tab1">Tiktokowi oszuści</label>
+        <div class="tab-content">
+          <p>Lista podejrzanych działań, fałszywe konta, przykłady oszustw.</p>
+          <ul>
+            <li><a href="https://example.com/artykul1" target="_blank">Jak rozpoznać oszusta</a></li>
+            <li><a href="https://example.com/artykul2" target="_blank">Techniki manipulacji</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tab">
+        <input type="checkbox" id="tab2">
+        <label class="tab-label" for="tab2">Podejrzane linki i platformy</label>
+        <div class="tab-content">
+          <p>Analizy fałszywych stron jak np. Douyin-scam.</p>
+          <ul>
+            <li><a href="https://example.com/douyin" target="_blank">Raport: fałszywy Douyin</a></li>
+          </ul>
+        </div>
       </div>
     </div>
 
-    <div class="tab">
-      <input type="checkbox" id="tab2">
-      <label class="tab-label" for="tab2">Podejrzane linki i platformy</label>
-      <div class="tab-content">
-        <p>Analizy fałszywych stron jak np. Douyin-scam.</p>
-        <ul>
-          <li><a href="https://example.com/douyin" target="_blank">Raport: fałszywy Douyin</a></li>
-        </ul>
+    <div class="two-column-layout">
+      <div class="left-column">
+        <section>
+          <h2>Latest Articles</h2>
+          <p>Coming soon...</p>
+        </section>
+
+        <section>
+          <h2>About Me</h2>
+          <p>I'm Em — a stubborn mind wrapped in a million thoughts. I love quiet nights, loud music, and the magic of simple words. This is my digital corner — nothing fancy, but 100% mine. Welcome inside.</p>
+        </section>
+      </div>
+
+      <div class="right-column">
+        <section class="contact-box">
+          <h2>Contact</h2>
+          <form action="https://formspree.io/f/xblyzylw" method="POST">
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+            <button type="submit">Send Message</button>
+          </form>
+        </section>
       </div>
     </div>
-  </div>
-  <!-- 👆 TU KOŃCZY SIĘ WKLEJKA -->
+  </main>
 
   <footer>© Em 2025</footer>
 </body>
-
-
-  <div class="two-column-layout">
-    <div class="left-column">
-      <section>
-        <h2>Latest Articles</h2>
-        <p>Coming soon...</p>
-      </section>
-
-      <section>
-        <h2>About Me</h2>
-        <p>I'm Em — a stubborn mind wrapped in a million thoughts. I love quiet nights, loud music, and the magic of simple words. This is my digital corner — nothing fancy, but 100% mine. Welcome inside.</p>
-      </section>
-    </div>
-
-    <div class="right-column">
-      <section class="contact-box">
-        <h2>Contact</h2>
-        <form action="https://formspree.io/f/xblyzylw" method="POST">
-          <label for="name">Your Name:</label><br>
-          <input type="text" id="name" name="name" required><br><br>
-
-          <label for="email">Your Email:</label><br>
-          <input type="email" id="email" name="email" required><br><br>
-
-          <label for="message">Message:</label><br>
-          <textarea id="message" name="message" rows="4" required></textarea><br><br>
-
-          <button type="submit">Send Message</button>
-        </form>
-      </section>
-    </div>
-  </div>
-
-</body>
 </html>
-
- 
