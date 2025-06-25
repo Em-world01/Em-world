@@ -233,3 +233,54 @@ body {
   justify-content: space-between; /* pięknie rozsuwa oba boxy */
   align-items: flex-start;
 }
+<head>
+  <meta charset="UTF-8">
+  <title>Em-world</title>
+
+  <!-- 👇 Styl klaseru -->
+  <style>
+    .tab-container {
+      width: 100%;
+      max-width: 700px;
+      margin: 0 auto;
+      font-family: sans-serif;
+    }
+
+    .tab {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      overflow: hidden;
+    }
+
+    .tab input[type="checkbox"] {
+      display: none;
+    }
+
+    .tab-label {
+      display: block;
+      padding: 15px;
+      background: #eee;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .tab-label:hover {
+      background: #ddd;
+    }
+
+    .tab-content {
+      max-height: 0;
+      overflow: hidden;
+      padding: 0 15px;
+      background: #f9f9f9;
+      transition: max-height 0.4s ease, padding 0.3s ease;
+    }
+
+    .tab input:checked ~ .tab-content {
+      max-height: 300px;
+      padding: 15px;
+    }
+  </style>
+</head>
