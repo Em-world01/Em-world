@@ -1,42 +1,18 @@
-
-
-
-
 * {
   box-sizing: border-box;
 }
-body {
-  padding: 20 20px; /* lewy i prawy margines */
 
+body {
+  margin: 0;
+  padding: 20px;
   background: #121212;
   color: #eee;
   font-family: Arial, sans-serif;
-  padding: 20px;
-}
-.about {
-  flex-basis: 50%;
 }
 
-.contact-box {
-  flex-basis: 35%;
-}
-
-
-h1 {
+h1, p {
   text-align: center;
 }
-
-p {
-  text-align: center;
-}
-.about {
-  margin-right: 20px;
-}
-
-.contact-box {
-  margin-left: 20px;
-}
-
 
 .two-column-layout {
   display: flex;
@@ -46,37 +22,32 @@ p {
   margin-top: 40px;
 }
 
-.left-column {
-  flex: 1 1 50%;
-  min-width: 250px;
+.about {
+  flex: 1 1 60%;
+  margin-right: 20px;
 }
 
 .right-column {
-  flex: 0 0 350px;  /* SZTYWNA szerokość: 350px */
-  box-sizing: border-box;
-}
-
+  flex: 1 1 35%;
+  min-width: 250px;
+  padding: 10px;
 }
 
 .contact-box {
-  text-align: center;
- background: #1f1f1f;
+  background: #1f1f1f;
   padding: 20px;
   border: 1px solid #00ffff;
   border-radius: 8px;
-  width: 100%; /* zostaw! */
-  max-width: 350px; /* NOWOŚĆ: ogranicza szerokość pudełka */
-  margin: 10px;   /* NOWOŚĆ: centrowanie w kolumnie */
-  box-sizing: border-box;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+  text-align: center;
 }
-
 
 .contact-box input,
 .contact-box textarea {
-   text-align: center;
-  display: center; /* <= KLUCZ! */
   width: 90%;
-  box-sizing: border-box;
   padding: 10px;
   margin-bottom: 10px;
   background: #121212;
@@ -84,203 +55,39 @@ p {
   color: #eee;
 }
 
-}
-
 .contact-box button {
-   text-align: center;
   padding: 10px 20px;
   background: #00ffff;
-  border: 10px;
+  border: none;
   color: #121212;
   cursor: pointer;
 }
 
-.contact-box button:center {
+.contact-box button:hover {
   background: #00cccc;
 }
-.right-column {
-  flex: 1 1 35%;
-  min-width: 250px;
-  padding: 10px; /* NOWOŚĆ! Dodaje przestrzeń w kolumnie */
-}
 
-}
-
-.contact-box {
-   text-align: right;
-  background: #1f1f1f;
-  padding: 30px;  /* Wewnętrzny odstęp w samej skrzynce */
-  margin-right: 0px;  /* Delikatnie odsunięte od krawędzi */
-  border: 1px solid #00ffff;
-  border-radius: 8px;
-}
-.right-column {
-   text-align: right;
-  flex: 1 1 35%;
-  min-width: 250px;
-  padding: 20px;       /* Odstęp WEWNĘTRZNY w kolumnie */
-  box-sizing: border-box; /* Niech padding NIE rozwala szerokości */
-}
-
-.contact-box {
-   text-align: right;
-  background: #1f1f1f;
-  padding: 20px;
-  border: 1px solid #00ffff;
-  border-radius: 8px;
-  width: 80%;          /* Zmiana! Skrzynka zajmuje 100% szerokości kolumny */
-  box-sizing: border-box; /* Też obowiązkowo */
-}
-
-.right-column {
-   text-align: right;
-  flex: 1 1 35%;
-  min-width: 300px;
-  padding: 10px;
-  /* USUŃ justify-content: center */
-}
-.contact-box {
-  text-align: right;
-  background: #1f1f1f;
-  padding: 20px;
-  border: 1px solid #00ffff;
-  border-radius: 8px;
-  box-shadow: 0 0 15px rgba(0, 255, 255, 0.2); /* delikatny neonowy cień */
-}
-.contact-box {
-  text-align: right;
-  max-width: 300px; /* lub ile chcesz */
-  width: 100%;      /* niech rośnie do limitu */
-  margin: 0 auto;   /* centrowanie wewnątrz kolumny */
-}
-.right-column {
-  text-align: right;
-  flex: 1 1 35%;
-  min-width: 300px;
-  padding: 10px;
-  /* USUŃ justify-content: center */
-}
-
-.contact-box {
-    text-align: center;
-    background: #1f1f1f;
-    padding: 10px;
-    border: 0px solid #00ffff;
-    border-radius: 8px;
-    max-width: 300px;
-    width: 80%;
-header img {
+.logo {
+  width: 90%;
+  max-width: 1000px;
+  margin: 10px auto;
   display: block;
-  width: 100%;
-  height: auto;
-  margin-bottom: 30px;
-}
-header img {
-  display: flex;
-  width: 100%;
 }
 
-main {
-  padding: 0 20px; /* taki sam jak .container */
-}
 @media (max-width: 768px) {
-  .content {
-    display: block;  /* przełącza z flex na blok */
+  .two-column-layout {
+    display: block;
   }
 
   .about,
   .contact-box {
-    width: 100%;     /* pełna szerokość */
-    margin: 20px 0;  /* odstęp góra-dół */
+    width: 100%;
+    margin: 20px 0;
   }
 
   .contact-box {
-    max-width: 75%;  /* opcjonalnie, żeby nie było za szerokie */
+    max-width: 75%;
     margin-left: auto;
-    margin-right: 10px;
+    margin-right: auto;
   }
-  .about {
-  flex-basis: 60%;
 }
-
-.contact-box {
-  flex-basis: 35%;
-}
-.about {
-  margin-right: 0px;
-}
-
-.contact-box {
-  margin-left: 20px;
-}
-
-}
-body {
-  padding: 0 20px; /* lewy i prawy margines */
-}
-.logo {
-  width: 90%;
-  max-width: 1000px; /* ograniczenie rozciągania */
-  margin: 10 ; /* centruje logo w obrębie strony */
-  display: block; 
-  /* żeby margin działał */
-}
-.contact-box {
-  margin-left: 70px; /* więcej = dalej od lewej */
-}
-.container {
-  display: flex;
-  justify-content: space-between; /* pięknie rozsuwa oba boxy */
-  align-items: flex-start;
-}
-<head>
-  <meta charset="UTF-8">
-  <title>Em-world</title>
-
-  <!-- 👇 Styl klaseru -->
-  <style>
-    .tab-container {
-      width: 100%;
-      max-width: 700px;
-      margin: 0 auto;
-      font-family: sans-serif;
-    }
-
-    .tab {
-      border: 1px solid #ccc;
-      border-radius: 8px;
-      margin-bottom: 10px;
-      overflow: hidden;
-    }
-
-    .tab input[type="checkbox"] {
-      display: none;
-    }
-
-    .tab-label {
-      display: block;
-      padding: 15px;
-      background: #eee;
-      cursor: pointer;
-      font-weight: bold;
-      transition: background 0.3s ease;
-    }
-
-    .tab-label:hover {
-      background: #ddd;
-    }
-
-    .tab-content {
-      max-height: 0;
-      overflow: hidden;
-      padding: 0 15px;
-      background: #f9f9f9;
-      transition: max-height 0.4s ease, padding 0.3s ease;
-    }
-
-    .tab input:checked ~ .tab-content {
-      max-height: 300px;
-      padding: 15px;
-    }
-  </style>
-</head>
