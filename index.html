@@ -1,79 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
-  <meta charset="UTF-8">
-  <title>Em-world</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Em's World</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* MINIMALNY STYL - leciutki lifting */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(145deg, #0f0f0f, #1a1a1a);
+      color: #f1f1f1;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #111;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+      font-family: 'Georgia', serif;
+    }
+    nav {
+      background-color: #222;
+      text-align: center;
+      padding: 1rem;
+    }
+    nav a {
+      color: #00bfff;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+    }
+    section {
+      margin-bottom: 2rem;
+      background-color: #1e1e1e;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 191, 255, 0.1);
+    }
+    h2 {
+      color: #00bfff;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
 </head>
 <body>
-  <header class="centered-box">
-    <img src="assets/logo.png" alt="Em's world banner" style="width: 90%; height: 70%;">
+  <header>
+    <h1>Em's world...</h1>
   </header>
-
+  <nav>
+    <a href="index.html">Start</a>
+    <a href="jak-rozpoznac-oszusta.html">Oszustwa</a>
+    <a href="techniki-manipulacji.html">Manipulacje</a>
+    <a href="kontakt.html">Kontakt</a>
+  </nav>
   <main>
-    <h1>Welcome to Em-world</h1>
-    <p>A tiny fortress of thoughts, tech trends, AI secrets, and elegant mischief.</p>
-    <h1>Witaj w moim świecie</h1>
-
-    <div class="tab-container">
-      <div class="tab">
-        <input type="checkbox" id="tab1">
-        <label class="tab-label" for="tab1">Tiktokowi oszuści</label>
-        <div class="tab-content">
-          <p>Lista podejrzanych działań, fałszywe konta, przykłady oszustw.</p>
-          <ul>
-            <li><a href="jak-rozpoznac-oszusta.html">Jak rozpoznać oszusta</a>
-</li>
-            <li><a href="https://example.com/artykul2" target="_blank">Techniki manipulacji</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="tab">
-        <input type="checkbox" id="tab2">
-        <label class="tab-label" for="tab2">Podejrzane linki i platformy</label>
-        <div class="tab-content">
-          <p>Analizy fałszywych stron jak np. Douyin-scam.</p>
-          <ul>
-            <li><a href="https://example.com/douyin" target="_blank">Raport: fałszywy Douyin</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="two-column-layout">
-      <div class="left-column">
-        <section>
-          <h2>Latest Articles</h2>
-          <p>Coming soon...</p>
-        </section>
-
-        <section>
-          <h2>About Me</h2>
-          <p>I'm Em — a stubborn mind wrapped in a million thoughts. I love quiet nights, loud music, and the magic of simple words. This is my digital corner — nothing fancy, but 100% mine. Welcome inside.</p>
-        </section>
-      </div>
-
-      <div class="right-column">
-        <section class="contact-box">
-          <h2>Contact</h2>
-          <form action="https://formspree.io/f/xblyzylw" method="POST">
-            <label for="name">Your Name:</label><br>
-            <input type="text" id="name" name="name" required><br><br>
-
-            <label for="email">Your Email:</label><br>
-            <input type="email" id="email" name="email" required><br><br>
-
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="4" required></textarea><br><br>
-
-            <button type="submit">Send Message</button>
-          </form>
-        </section>
-      </div>
-    </div>
+    <section>
+      <h2>Witaj w moim świecie</h2>
+      <p>Mała twierdza myśli, trendów technologicznych, sekretów sztucznej inteligencji i eleganckich psot.</p>
+    </section>
+    <section>
+      <h2>Nowości</h2>
+      <p>Artykuły w przygotowaniu. Pracuję nad treściami, które Was zaskoczą. 😉</p>
+    </section>
   </main>
-
-  <footer>© Em 2025</footer>
+  <footer>
+    &copy; Em 2025
+  </footer>
 </body>
 </html>
